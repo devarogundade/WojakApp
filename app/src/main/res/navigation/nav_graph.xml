@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/onBoardFragment">
+    <fragment
+        android:id="@+id/onBoardFragment"
+        android:name="dev.arogundade.wojak.ui.OnBoardFragment"
+        android:label="fragment_on_board"
+        tools:layout="@layout/fragment_on_board" >
+        <action
+            android:id="@+id/action_onBoardFragment_to_homeFragment"
+            app:destination="@id/homeFragment"
+            app:popUpTo="@id/onBoardFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="dev.arogundade.wojak.ui.home.HomeFragment"
+        android:label="fragment_portfolio"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_coinInfoFragment"
+            app:destination="@id/coinInfoFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_addToPortfolioFragment"
+            app:destination="@id/addToPortfolioFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_newAlertFragment"
+            app:destination="@id/newAlertFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/coinInfoFragment"
+        android:name="dev.arogundade.wojak.ui.info.CoinInfoFragment"
+        android:label="fragment_coin_info"
+        tools:layout="@layout/fragment_coin_info" >
+        <action
+            android:id="@+id/action_coinInfoFragment_to_newTransactionFragment"
+            app:destination="@id/newTransactionFragment" />
+        <action
+            android:id="@+id/action_coinInfoFragment_to_newAlertFragment"
+            app:destination="@id/newAlertFragment" />
+        <argument
+            android:name="data"
+            app:argType="dev.arogundade.wojak.models.PortfolioCurrencyTransactions" />
+    </fragment>
+    <fragment
+        android:id="@+id/newTransactionFragment"
+        android:name="dev.arogundade.wojak.ui.transaction.NewTransactionFragment"
+        android:label="fragment_new_transaction"
+        tools:layout="@layout/fragment_new_transaction" >
+        <argument
+            android:name="currency"
+            app:argType="dev.arogundade.wojak.models.Currency" />
+        <argument
+            android:name="transaction"
+            app:argType="dev.arogundade.wojak.models.Transaction"
+            app:nullable="true"
+            android:defaultValue="@null" />
+    </fragment>
+    <fragment
+        android:id="@+id/newAlertFragment"
+        android:name="dev.arogundade.wojak.ui.newalert.NewAlertFragment"
+        android:label="fragment_new_alert"
+        tools:layout="@layout/fragment_new_alert" >
+        <argument
+            android:name="currency"
+            app:argType="dev.arogundade.wojak.models.Currency" />
+    </fragment>
+    <fragment
+        android:id="@+id/addToPortfolioFragment"
+        android:name="dev.arogundade.wojak.ui.add.AddToPortfolioFragment"
+        android:label="fragment_add_to_portfolio"
+        tools:layout="@layout/fragment_add_to_portfolio" >
+        <argument
+            android:name="currency"
+            app:argType="dev.arogundade.wojak.models.Currency" />
+    </fragment>
+</navigation>

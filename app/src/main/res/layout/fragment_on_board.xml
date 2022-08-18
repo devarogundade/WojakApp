@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30dp"
+    tools:context=".ui.OnBoardFragment">
+
+    <ImageView
+        android:id="@+id/wojak"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginBottom="50dp"
+        android:contentDescription="@string/app_name"
+        android:scaleType="centerCrop"
+        android:src="@drawable/wojak_gif"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        style="@style/Neue40"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:lineHeight="45dp"
+        android:text="@string/track_your_crypto"
+        android:textColor="@color/md_theme_light_onSecondaryContainer"
+        app:layout_constraintBottom_toTopOf="@+id/createPortfolio"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="UnusedAttribute" />
+
+    <TextView
+        android:id="@+id/createPortfolio"
+        style="@style/QuickSandMedium16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingVertical="10dp"
+        android:text="@string/create_portfolio"
+        android:textAllCaps="true"
+        android:textColor="@color/md_theme_light_primary"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="8dp"
+        android:contentDescription="@string/app_name"
+        android:rotation="-45"
+        android:src="@drawable/ic_arrow___right"
+        app:layout_constraintBottom_toBottomOf="@+id/createPortfolio"
+        app:layout_constraintStart_toEndOf="@+id/createPortfolio"
+        app:layout_constraintTop_toTopOf="@+id/createPortfolio"
+        app:tint="@color/md_theme_light_primary" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

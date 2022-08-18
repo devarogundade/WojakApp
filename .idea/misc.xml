@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Arogundade Ibrahim/AndroidStudioProjects/Wojak/app/src/main/res/drawable-v24/bottom_sheet.xml" value="0.307" />
+        <entry key="..\:/Users/Arogundade Ibrahim/AndroidStudioProjects/Wojak/app/src/main/res/drawable-v24/gradient.xml" value="0.328" />
+        <entry key="..\:/Users/Arogundade Ibrahim/AndroidStudioProjects/Wojak/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.307" />
+        <entry key="..\:/Users/Arogundade Ibrahim/AndroidStudioProjects/Wojak/app/src/main/res/drawable-v24/outline_21.xml" value="0.307" />
+        <entry key="..\:/Users/Arogundade Ibrahim/AndroidStudioProjects/Wojak/app/src/main/res/drawable/explore_adaptive_icon.xml" value="0.307" />
+        <entry key="..\:/Users/Arogundade Ibrahim/AndroidStudioProjects/Wojak/app/src/main/res/drawable/ic_arrow___right.xml" value="0.307" />
+        <entry key="..\:/Users/Arogundade Ibrahim/AndroidStudioProjects/Wojak/app/src/main/res/drawable/ic_contour.xml" value="0.309" />
+        <entry key="..\:/Users/Arogundade Ibrahim/AndroidStudioProjects/Wojak/app/src/main/res/drawable/ic_graph.xml" value="0.307" />
+        <entry key="..\:/Users/Arogundade Ibrahim/AndroidStudioProjects/Wojak/app/src/main/res/drawable/ic_home.xml" value="0.307" />
+        <entry key="..\:/Users/Arogundade Ibrahim/AndroidStudioProjects/Wojak/app/src/main/res/drawable/ic_launcher_background.xml" value="0.307" />
+        <entry key="..\:/Users/Arogundade Ibrahim/AndroidStudioProjects/Wojak/app/src/main/res/drawable/ic_notification.xml" value="0.307" />
+        <entry key="..\:/Users/Arogundade Ibrahim/AndroidStudioProjects/Wojak/app/src/main/res/drawable/ic_round_add_24.xml" value="0.307" />
+        <entry key="..\:/Users/Arogundade Ibrahim/AndroidStudioProjects/Wojak/app/src/main/res/drawable/ic_tick_square.xml" value="0.309" />
+        <entry key="..\:/Users/Arogundade Ibrahim/AndroidStudioProjects/Wojak/app/src/main/res/drawable/shape_error_selector_10.xml" value="0.309" />
+        <entry key="..\:/Users/Arogundade Ibrahim/AndroidStudioProjects/Wojak/app/src/main/res/drawable/shape_light_gray_button_40.xml" value="0.307" />
+        <entry key="..\:/Users/Arogundade Ibrahim/AndroidStudioProjects/Wojak/app/src/main/res/drawable/shape_primary_button_40.xml" value="0.307" />
+        <entry key="..\:/Users/Arogundade Ibrahim/AndroidStudioProjects/Wojak/app/src/main/res/drawable/shape_primary_light_selector_10.xml" value="0.309" />
+        <entry key="..\:/Users/Arogundade Ibrahim/AndroidStudioProjects/Wojak/app/src/main/res/drawable/shape_primary_selector_10.xml" value="0.307" />
+        <entry key="..\:/Users/Arogundade Ibrahim/AndroidStudioProjects/Wojak/app/src/main/res/drawable/shape_primary_selector_21.xml" value="0.307" />
+        <entry key="..\:/Users/Arogundade Ibrahim/AndroidStudioProjects/Wojak/app/src/main/res/drawable/splash_view.xml" value="0.309" />
+        <entry key="..\:/Users/Arogundade Ibrahim/AndroidStudioProjects/Wojak/app/src/main/res/drawable/tab_active.xml" value="0.307" />
+        <entry key="..\:/Users/Arogundade Ibrahim/AndroidStudioProjects/Wojak/app/src/main/res/drawable/tab_dark.xml" value="0.307" />
+        <entry key="..\:/Users/Arogundade Ibrahim/AndroidStudioProjects/Wojak/app/src/main/res/drawable/tab_inactive.xml" value="0.307" />
+        <entry key="..\:/Users/Arogundade Ibrahim/AndroidStudioProjects/Wojak/app/src/main/res/drawable/tab_item_background.xml" value="0.307" />
+        <entry key="..\:/Users/Arogundade Ibrahim/AndroidStudioProjects/Wojak/app/src/main/res/drawable/text_outline.xml" value="0.307" />
+        <entry key="..\:/Users/Arogundade Ibrahim/AndroidStudioProjects/Wojak/app/src/main/res/font/neue.xml" value="0.3069687900812313" />
+        <entry key="..\:/Users/Arogundade Ibrahim/AndroidStudioProjects/Wojak/app/src/main/res/layout-v23/empty_item.xml" value="0.34479166666666666" />
+        <entry key="..\:/Users/Arogundade Ibrahim/AndroidStudioProjects/Wojak/app/src/main/res/layout-v23/fragment_portfolio.xml" value="0.34479166666666666" />
+        <entry key="..\:/Users/Arogundade Ibrahim/AndroidStudioProjects/Wojak/app/src/main/res/layout/activity_main.xml" value="0.27944280287040946" />
+        <entry key="..\:/Users/Arogundade Ibrahim/AndroidStudioProjects/Wojak/app/src/main/res/layout/alert-sub_item.xml" value="0.2830269345874305" />
+        <entry key="..\:/Users/Arogundade Ibrahim/AndroidStudioProjects/Wojak/app/src/main/res/layout/alert_item.xml" value="0.2830269345874305" />
+        <entry key="..\:/Users/Arogundade Ibrahim/AndroidStudioProjects/Wojak/app/src/main/res/layout/alert_sub_item.xml" value="0.2830269345874305" />
+        <entry key="..\:/Users/Arogundade Ibrahim/AndroidStudioProjects/Wojak/app/src/main/res/layout/choose_coin_item.xml" value="0.2830269345874305" />
+        <entry key="..\:/Users/Arogundade Ibrahim/AndroidStudioProjects/Wojak/app/src/main/res/layout/connectivity_status.xml" value="0.2830269345874305" />
+        <entry key="..\:/Users/Arogundade Ibrahim/AndroidStudioProjects/Wojak/app/src/main/res/layout/content_main.xml" value="0.27944280287040946" />
+        <entry key="..\:/Users/Arogundade Ibrahim/AndroidStudioProjects/Wojak/app/src/main/res/layout/delete_confimation.xml" value="0.2830269345874305" />
+        <entry key="..\:/Users/Arogundade Ibrahim/AndroidStudioProjects/Wojak/app/src/main/res/layout/edit_amount.xml" value="0.2830269345874305" />
+        <entry key="..\:/Users/Arogundade Ibrahim/AndroidStudioProjects/Wojak/app/src/main/res/layout/edit_price.xml" value="0.2821718683197948" />
+        <entry key="..\:/Users/Arogundade Ibrahim/AndroidStudioProjects/Wojak/app/src/main/res/layout/empty_item.xml" value="0.2821718683197948" />
+        <entry key="..\:/Users/Arogundade Ibrahim/AndroidStudioProjects/Wojak/app/src/main/res/layout/filter.xml" value="0.2830269345874305" />
+        <entry key="..\:/Users/Arogundade Ibrahim/AndroidStudioProjects/Wojak/app/src/main/res/layout/fragment_add_to_portfolio.xml" value="0.27944280287040946" />
+        <entry key="..\:/Users/Arogundade Ibrahim/AndroidStudioProjects/Wojak/app/src/main/res/layout/fragment_alert.xml" value="0.2830269345874305" />
+        <entry key="..\:/Users/Arogundade Ibrahim/AndroidStudioProjects/Wojak/app/src/main/res/layout/fragment_choose_coin.xml" value="0.25" />
+        <entry key="..\:/Users/Arogundade Ibrahim/AndroidStudioProjects/Wojak/app/src/main/res/layout/fragment_coin_info.xml" value="0.2830269345874305" />
+        <entry key="..\:/Users/Arogundade Ibrahim/AndroidStudioProjects/Wojak/app/src/main/res/layout/fragment_converter.xml" value="0.271483539974348" />
+        <entry key="..\:/Users/Arogundade Ibrahim/AndroidStudioProjects/Wojak/app/src/main/res/layout/fragment_first.xml" value="0.27944280287040946" />
+        <entry key="..\:/Users/Arogundade Ibrahim/AndroidStudioProjects/Wojak/app/src/main/res/layout/fragment_goals.xml" value="0.2830269345874305" />
+        <entry key="..\:/Users/Arogundade Ibrahim/AndroidStudioProjects/Wojak/app/src/main/res/layout/fragment_group.xml" value="0.2830269345874305" />
+        <entry key="..\:/Users/Arogundade Ibrahim/AndroidStudioProjects/Wojak/app/src/main/res/layout/fragment_home.xml" value="0.27944280287040946" />
+        <entry key="..\:/Users/Arogundade Ibrahim/AndroidStudioProjects/Wojak/app/src/main/res/layout/fragment_new_alert.xml" value="0.2830269345874305" />
+        <entry key="..\:/Users/Arogundade Ibrahim/AndroidStudioProjects/Wojak/app/src/main/res/layout/fragment_new_transaction.xml" value="0.2830269345874305" />
+        <entry key="..\:/Users/Arogundade Ibrahim/AndroidStudioProjects/Wojak/app/src/main/res/layout/fragment_news.xml" value="0.271483539974348" />
+        <entry key="..\:/Users/Arogundade Ibrahim/AndroidStudioProjects/Wojak/app/src/main/res/layout/fragment_on_board.xml" value="0.2830269345874305" />
+        <entry key="..\:/Users/Arogundade Ibrahim/AndroidStudioProjects/Wojak/app/src/main/res/layout/fragment_portfolio.xml" value="0.2830269345874305" />
+        <entry key="..\:/Users/Arogundade Ibrahim/AndroidStudioProjects/Wojak/app/src/main/res/layout/fragment_second.xml" value="0.27944280287040946" />
+        <entry key="..\:/Users/Arogundade Ibrahim/AndroidStudioProjects/Wojak/app/src/main/res/layout/fragment_start_up.xml" value="0.2830269345874305" />
+        <entry key="..\:/Users/Arogundade Ibrahim/AndroidStudioProjects/Wojak/app/src/main/res/layout/fragment_top_coin.xml" value="0.2830269345874305" />
+        <entry key="..\:/Users/Arogundade Ibrahim/AndroidStudioProjects/Wojak/app/src/main/res/layout/goal_item.xml" value="0.2830269345874305" />
+        <entry key="..\:/Users/Arogundade Ibrahim/AndroidStudioProjects/Wojak/app/src/main/res/layout/porfolio_coin_item.xml" value="0.2830269345874305" />
+        <entry key="..\:/Users/Arogundade Ibrahim/AndroidStudioProjects/Wojak/app/src/main/res/layout/portfolio_coin_item.xml" value="0.27944280287040946" />
+        <entry key="..\:/Users/Arogundade Ibrahim/AndroidStudioProjects/Wojak/app/src/main/res/layout/portfolio_tem.xml" value="0.2830269345874305" />
+        <entry key="..\:/Users/Arogundade Ibrahim/AndroidStudioProjects/Wojak/app/src/main/res/layout/recommended_portfolio_item.xml" value="0.2830269345874305" />
+        <entry key="..\:/Users/Arogundade Ibrahim/AndroidStudioProjects/Wojak/app/src/main/res/layout/transaction_info.xml" value="0.2830269345874305" />
+        <entry key="..\:/Users/Arogundade Ibrahim/AndroidStudioProjects/Wojak/app/src/main/res/layout/transaction_item.xml" value="0.2830269345874305" />
+        <entry key="..\:/Users/Arogundade Ibrahim/AndroidStudioProjects/Wojak/app/src/main/res/menu/activity_main_drawer.xml" value="0.2830269345874305" />
+        <entry key="..\:/Users/Arogundade Ibrahim/AndroidStudioProjects/Wojak/app/src/main/res/menu/bottom_navigation.xml" value="0.27944280287040946" />
+        <entry key="..\:/Users/Arogundade Ibrahim/AndroidStudioProjects/Wojak/app/src/main/res/menu/menu_main.xml" value="0.13766566908935443" />
+        <entry key="..\:/Users/Arogundade Ibrahim/AndroidStudioProjects/Wojak/app/src/main/res/menu/save.xml" value="0.2830269345874305" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

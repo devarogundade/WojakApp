@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bottom_sheet"
+    android:paddingVertical="26dp">
+
+    <ImageView
+        android:id="@+id/cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/back"
+        android:paddingHorizontal="24dp"
+        android:paddingVertical="10dp"
+        android:rotation="45"
+        android:src="@drawable/ic_round_add_24"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:tint="@color/md_theme_light_onSurfaceVariant" />
+
+    <TextView
+        android:id="@+id/textView12"
+        style="@style/QuickSandMedium18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/filter"
+        android:textColor="@color/md_theme_light_onSecondaryContainer"
+        app:layout_constraintBottom_toBottomOf="@+id/cancel"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/cancel" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="26dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cancel">
+
+        <com.google.android.material.radiobutton.MaterialRadioButton
+            android:id="@+id/all"
+            style="@style/QuickSandMedium16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/profits_and_loss"
+            android:textColor="@color/md_theme_light_onSecondaryContainer" />
+
+        <com.google.android.material.radiobutton.MaterialRadioButton
+            android:id="@+id/profit"
+            style="@style/QuickSandMedium16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/only_profits"
+            android:textColor="@color/md_theme_light_onSecondaryContainer" />
+
+        <com.google.android.material.radiobutton.MaterialRadioButton
+            android:id="@+id/loss"
+            style="@style/QuickSandMedium16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/only_loss"
+            android:textColor="@color/md_theme_light_onSecondaryContainer" />
+
+    </RadioGroup>
+
+    <com.google.android.material.materialswitch.MaterialSwitch
+        android:id="@+id/hasGoal"
+        style="@style/QuickSandMedium16"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="26dp"
+        android:layout_marginTop="16dp"
+        android:paddingHorizontal="4dp"
+        android:text="@string/has_a_goal"
+        android:textColor="@color/md_theme_light_onSecondaryContainer"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
+
+    <TextView
+        android:id="@+id/done"
+        style="@style/QuickSandMedium20"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginHorizontal="26dp"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/shape_primary_light_selector_10"
+        android:gravity="center"
+        android:text="@string/done"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hasGoal" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

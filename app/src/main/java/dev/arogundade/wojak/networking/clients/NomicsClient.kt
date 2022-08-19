@@ -1,7 +1,6 @@
 package dev.arogundade.wojak.networking.clients
 
 import dev.arogundade.wojak.models.Currency
-import dev.arogundade.wojak.models.Metadata
 import dev.arogundade.wojak.utils.Constants.INTERVAL
 import dev.arogundade.wojak.utils.Constants.NETWORK_PAGE_SIZE
 import retrofit2.Response

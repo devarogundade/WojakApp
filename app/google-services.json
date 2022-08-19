@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "345271594152",
+    "project_id": "wojak-9e967",
+    "storage_bucket": "wojak-9e967.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:345271594152:android:3936260e64451869be669d",
+        "android_client_info": {
+          "package_name": "dev.arogundade.wojak"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "345271594152-1so7u8ikh5ioo10oh926j6muae7rbld8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQDFev2l6q75uFN6cvgoflz2MKvd0F7-w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "345271594152-1so7u8ikh5ioo10oh926j6muae7rbld8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
